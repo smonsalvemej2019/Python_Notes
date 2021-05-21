@@ -5,3 +5,4 @@ readme.
 
 ## Some reserved words and operators in python
 ![reserved Words](/Screenshots/resWords.png)
+![operators](/Screenshots/oper.png)
