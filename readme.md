@@ -4,5 +4,5 @@ Most notes are in the python files themselves, but some important screenshots wi
 readme.
 
 ## Some reserved words and operators in python
-![reserved Words](/Screenshots/resWords.png)
+![reserved Words](/Screenshots/resWords.png)<br>
 ![operators](/Screenshots/oper.png)
