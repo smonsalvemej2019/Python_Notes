@@ -34,7 +34,8 @@ rad_in = float(rad_in)
 circum = 2 * math.pi * rad_in
 area = math.pi * (rad_in ** 2)#the ** represents power
 
-print("The area of your circle is: ", area, ", and circumference is: ", circum)
+#putting f in front of print, we can pass the var to the string, similar to backticks in JS
+print(f"The area of your circle is: {area} and circumference is: {circum}")
 
 #the math library has many many useful methods
 

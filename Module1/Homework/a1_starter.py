@@ -17,9 +17,9 @@
 
 ###########################################################################
 
-name = "Santiago Monsalve"
-academic_status = {"major": "Computer Science", "gpa": 3.4}
-hobbies = ['gaming', 'coding']
+name = "Oge Marques"
+academic_status = {"major": "Computer Science", "gpa": 3.2}
+hobbies = ['gardening', 'reading', 'playing basketball']
 
 likes = "My hobbies are: \n"
 for hobby in hobbies:
