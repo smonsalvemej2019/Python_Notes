@@ -29,7 +29,7 @@ print('This is my output:', myInput)
 #example program: Circumference program 
 
 rad_in = input("Enter the input of your circle: ")
-int(rad_in)
+rad_in = float(rad_in)
 
 circum = 2 * math.pi * rad_in
 area = math.pi * (rad_in ** 2)#the ** represents power
