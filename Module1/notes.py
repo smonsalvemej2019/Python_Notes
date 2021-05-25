@@ -1,4 +1,4 @@
-#import
+#import modules
 import math #import keyword used to import libraries
 
 #Syntaxes
@@ -37,3 +37,16 @@ area = math.pi * (rad_in ** 2)#the ** represents power
 print("The area of your circle is: ", area, ", and circumference is: ", circum)
 
 #the math library has many many useful methods
+
+#there is other reserved words that could be useful foe debugging
+myStrng = "The type reserved word will tell you the type of var we are dealing with"
+print(type(myStrng)) # a string of course
+
+#python also lets us represent numbers in different bases
+
+anOctal = 0o12 #base 8
+
+aHex = 0x12 #base 16
+
+aBin = 0b101 #base 2
+
