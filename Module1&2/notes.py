@@ -113,5 +113,75 @@ if x < y : print(f"hello from a one line if else statement")
 print("Z is greater") if z > x and z > y else print("y is greater") if y > x else print("x is greater")
 
 #we have the keywords "and", "or" to represent && and || 
-#we can also use the "pass" if we have an empty if-else statement
+
+#we can also use the "pass" if we have an empty if-else statement. pass is considered a null operation
+#anf it is useful when writing stubs
+
+#python also offers looping 
+#the while loop is pretty standard
+print('loops \n')
+while x < y:
+    print(x)
+    x += 1
+#but it is also closley related with the if-else statements
+x = 9
+while y < x: #because this is not true 
+    print(x)
+    x += 1
+else:
+    print(f"\n{y} is not less than {x}\n")#this code will run
+
+#we can also use the "continue" key word to skip an iteration and "break" to stop the loop
+x = 1
+while x < 20:
+    x += 1
+    if x == 11:
+        print("Hello from the continue statement")
+        continue
+    elif x == 15:
+        print("\nHello from break statement\n")
+        break
+    print(x)
+
+#for loops are a bit more interesting
+#we can loop thought strings
+
+print("\nfor loops\n")
+
+long_word = "antidisestablishmentarianism"
+
+for letter in long_word: #similar to JS loops
+    print(letter)
+
+print("\n")
+# we can also use the break statement 
+
+for letter in long_word: 
+    if letter == 'd':
+        break
+    print(letter)
+
+print("\n")
+#and the continue statement
+for letter in long_word: #will skip all a
+    if letter == 'a':
+        continue
+    print(letter)
+
+print("\n")
+#if we want to make a loop that iterates trough a specific range, we can 
+#use the range() function
+
+for x in range(10):#the range is from 0 to 9 
+    print(x)
+
+for x in range(10,20):#the range is from 10 to 19 
+    print(x)
+
+for x in range(20,100,10):#the range is from 20 to 100 with an increment of 10 
+    print(x)
+else:
+    print("end of loop")
+    #else will execute when the for loop ends but not when
+    #the loop is interrupted by a break
 
