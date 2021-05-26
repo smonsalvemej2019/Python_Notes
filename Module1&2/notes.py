@@ -89,3 +89,29 @@ hello my name is {my_dict['name']} and im {my_dict['age']} years old")
 #dictionaries are very similar to JS objects and can be nested. 
 #for more info please check w3 schools.
 
+
+#python also has if-else statements and loops
+
+x = 9
+y = 15
+z = 200
+
+#reminder: python cares for indentation
+if x > y:
+    print(f"{x} is greater than {y}")
+elif x == y:#elif is the else if statement of python
+    print(f"{x} is equal to {y}")
+else:
+    print(f"Hello from else")
+
+#we can also do one line statements
+
+if x < y : print(f"hello from a one line if else statement")
+
+#we can also do a ternary operator approach
+
+print("Z is greater") if z > x and z > y else print("y is greater") if y > x else print("x is greater")
+
+#we have the keywords "and", "or" to represent && and || 
+#we can also use the "pass" if we have an empty if-else statement
+
