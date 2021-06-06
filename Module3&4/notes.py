@@ -47,3 +47,5 @@ txt = "Hello my name is {} and my age is {}"
 
 print(txt.format(age,name))# we pass the var to the text
 
+#FOR MORE STRING METHODS PLEASE VISIT W3SCHOOLS
+
