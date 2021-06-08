@@ -26,7 +26,11 @@ I recommend making a file called ***example.txt*** with the message
 
     !___HellOO from ||| my File??!!
     
-encrypting it, then decrypting the nameOfYourFile_enc.txt file afterwards. 
+encrypting it, then decrypting the
+
+    nameOfYourFile_enc.txt 
+
+file afterwards. 
 
 ***ATTENTION:*** Due to its unique implementation, this program can only decrypt what it encrypts.
 
