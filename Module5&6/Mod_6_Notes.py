@@ -50,7 +50,9 @@ file.close()
 
 print("\n\n")
 file = open("files/demo.txt")
-print(file.read())
+my_string = file.read()
+print(my_string)
+file.close()
 
 
 
