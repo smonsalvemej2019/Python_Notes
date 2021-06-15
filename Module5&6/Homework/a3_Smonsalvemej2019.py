@@ -119,6 +119,8 @@ def decrypt():
 
 
 #main while loop
+print("This simple program takes a measseage and encrypts it as a cesar cypher")
+print("the inputs are done trough external .txt file, please make sure you create your filed before launching")
 while 1:
     #options menu, input is converted to lowercase
     option = input("\nEncrypt(e)\nDecrypt(d)\nExit(x)\n")
