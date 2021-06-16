@@ -27,7 +27,32 @@ my_list = list(("hello list","from","constructor"))
 
 #we can have lists of lists, tuples of tuples etc
 
+print("\n")
+
 list_of_lists = [["my","first","list"],["my","second","list"]]
 
-for lists in list_of_lists:
+for lists in list_of_lists:#prints both lists
     print(lists)
+
+print("\n")
+for lists in list_of_lists:#prints each word in each list 
+    for word in lists:
+        print(word)
+    print("\n")
+
+#works with tuples too!
+
+#we can think of lists and tuples as as spreadsheet!
+
+list_of_lists = [["Name:","Age","Occupation"],["Santi","23","student"],
+                ["Allen","27","marketing specialist"],["Matt","21","gamer"]]
+for entry in list_of_lists:
+    print(entry[:])#if we put the index [n] we can diplay columns slicing included!
+
+#operators also work on lists
+# (+) is concatenation
+# (* int) is multiplication of a list by the val of the int
+# (> and <) checks if each val is less than or greater than
+# (in) checks for membership
+
+#lists and tuples also have methods but please go to W3Schools for more on those
