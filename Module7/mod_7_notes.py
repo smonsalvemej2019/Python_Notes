@@ -21,7 +21,13 @@ print(my_tuple)
 
 #we can also create these var with their constructors
 
-my_tuple = tuple(("hello tuple","from","constructor"))
+my_tuple = tuple(("hello tuple","from","constructor")) #notice that they are both inside parentheses
 my_list = list(("hello list","from","constructor"))
 
 
+#we can have lists of lists, tuples of tuples etc
+
+list_of_lists = [["my","first","list"],["my","second","list"]]
+
+for lists in list_of_lists:
+    print(lists)
