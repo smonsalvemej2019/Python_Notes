@@ -10,9 +10,11 @@ y = [1, 4, 9, 16]
 plt.plot(x,y, 'r-') #plots x vs y with a red line
 plt.ylabel('y') #labels y
 plt.xlabel('x') #lables x
-plt.savefig('my_chart.png')
-plt.show() # shows tplot
 #we can save the chart by doing
+plt.savefig('my_chart.png')
+#we can show the chart by doing
+plt.show() # shows tplot
+
 
 
 #linetypes include 
