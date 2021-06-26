@@ -53,7 +53,10 @@ print(f"\n{my_list}")
 #ENCLOSING: if there is two nested functions f() and g() and if var x is not in the local scope of inner function g()
 #then the interpreter looks for x in the enclosing function f()
 #GLOBAL: If x is not inside any function f() or g() then it must me somwhere in the global scope (defined in the main program)
-#BUILT-IN: If x is not in the global scope then it must be a python built-in object
+#BUILT-IN: If x is not in the global scope then it must be a python built-in object.
+
+
+
 
 #An important method in python is the dir()
 #while not used in actual used during implementation, dir can provide 
