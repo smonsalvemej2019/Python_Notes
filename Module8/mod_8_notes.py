@@ -28,12 +28,12 @@ print(round(square_root(),2))
 my_string = "\nThis is my string outside the function\n"
 
 #and define a function that will change the immutable
-def mutate_strng(my_string):
+def mutate_string(my_string):
     my_string = "\nIs something different now inside the function\n"
     print(my_string)
 
 #passing the string to the function will change the value ONLY INSIDE the function scope and not in the global
-mutate_strng(my_string)
+mutate_string(my_string)
 print(my_string)
 
 #lets define mutable variable
@@ -75,5 +75,3 @@ print("\n", mt.__doc__)#this is the documentation method
 print("\n",square_root().__doc__)#the documentation of the function made above
 
 #we will learn more about __special methods__ next module
-
-
