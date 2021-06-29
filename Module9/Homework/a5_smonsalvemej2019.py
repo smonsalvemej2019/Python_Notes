@@ -21,7 +21,7 @@ def file_reader(reader):
         val["petal_width"] /= val["row_count"]
         del val["row_count"]
 
-    return iris
+    return iris 
 
 def display_data(data):
     pass
