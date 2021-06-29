@@ -29,8 +29,8 @@ def display_data(data):
 
 try:
     file = open("iris.csv")
-    reader = csv.DictReader(file)
-    file_reader(reader)
+    data = csv.DictReader(file)
+    data = file_reader(data)
 
 
 
